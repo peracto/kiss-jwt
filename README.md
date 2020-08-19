@@ -1,5 +1,14 @@
-# KISS JWT
-A Simple NodeJs module to keep sign and verify JWT tokens using RSA-SHA256.
+# KISS Promise Pool
 
-Nothing complex, requiring a single dependency 'crypto' module.
+When there is multiple async tasks to run. R 
 
+
+```js
+ return await PromisePool.toArray(
+            2, // Number of concurrent tasks
+            [1,2,3,4,5,6,7], // Source data
+            async n => {
+                // do something async with n
+            }
+)    
+```        

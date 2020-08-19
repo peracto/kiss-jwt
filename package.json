@@ -1,7 +1,7 @@
 {
-  "name": "kiss-jwt",
-  "version": "0.9.0",
-  "description": "Keep it Simple, JWT sign and verify",
+  "name": "kiss-promise-pool",
+  "version": "0.0.2",
+  "description": "Keep it Simple, Promise Pool",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,8 @@
   "keywords": [
     "kiss",
     "simple",
-    "jwt"
+    "pool",
+    "promise"
   ],
   "author": "peracto",
   "license": "MIT"
